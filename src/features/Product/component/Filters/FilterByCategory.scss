@@ -1,0 +1,16 @@
+.category-list {
+  margin: 0;
+  padding: 16px;
+  list-style-type: none;
+  &:hover {
+    cursor: pointer;
+  }
+  & > li {
+    margin-top: 4px;
+    padding-top: 4px;
+    transition: all 0.25s;
+    &:hover {
+      color: #1976d2;
+    }
+  }
+}

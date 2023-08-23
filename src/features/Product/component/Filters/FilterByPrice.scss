@@ -1,0 +1,11 @@
+.price-container {
+  padding: 16px;
+  border-top: 1px solid rgba(128, 128, 128, 0.3);
+  & .price-box {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+}

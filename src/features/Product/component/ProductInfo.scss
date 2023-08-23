@@ -1,0 +1,20 @@
+.product-info {
+  & > .info-shortdescription {
+    margin: 16px 0;
+  }
+
+  & > .price-box {
+    background-color: #eeeeee;
+    padding: 16px;
+    & > .info-saleprice {
+      font-size: 24px;
+      font-weight: bold;
+      margin-right: 24px;
+    }
+    & > .info-originalprice {
+      margin-right: 16px;
+      text-decoration: line-through;
+      font-size: 14px;
+    }
+  }
+}
